@@ -5,6 +5,8 @@ git rm --cached filename
 git commit -m "adding testing.py file"
 git restore filename
 
+# diffrence between untracked ,staging and tracked.
+
 
 <This is used to set your name and email globally in Git, meaning for all repositories on your system.you don't need to set again>
 
@@ -25,6 +27,18 @@ Used when..1.Password auth is disabled 2.You want non-interactive authentication
 
 git push origin master
 
+# git clone and git fork thier diffrence.
+
 this is new changes  ...this message is pull from github to loacal and for this command is
 
 git pull origin master
+
+# branching stratergies : head means HEAD points to your current position in the repository(latest commit)
+
+git branch dev 
+#or
+git checkout -b dev
+
+git checkout dev
+# OR
+git switch dev
