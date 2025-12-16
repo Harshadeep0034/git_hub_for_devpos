@@ -25,4 +25,6 @@ Used when..1.Password auth is disabled 2.You want non-interactive authentication
 
 git push origin master
 
-this is new changes
+this is new changes  ...this message is pull from github to loacal and for this command is
+
+git pull origin master
