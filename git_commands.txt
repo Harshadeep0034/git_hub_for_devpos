@@ -33,7 +33,9 @@ this is new changes  ...this message is pull from github to loacal and for this 
 
 git pull origin master
 
-# branching stratergies : head means HEAD points to your current position in the repository(latest commit)
+# branching stratergies : head means HEAD points to your current position in the repository(latest commit to your repo)
+
+every branch in git is maintain its own copy
 
 git branch dev 
 #or
@@ -42,3 +44,10 @@ git checkout -b dev
 git checkout dev
 # OR
 git switch dev
+
+
+git log or git log --oneline
+
+merge branches : through github pull request branches 
+
+git fetach and git pull diffrence
