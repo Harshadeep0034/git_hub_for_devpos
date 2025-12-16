@@ -1,0 +1,26 @@
+git init
+git status
+git add filename
+git rm --cached filename
+git commit -m "adding testing.py file"
+git restore filename
+
+
+<This is used to set your name and email globally in Git, meaning for all repositories on your system.you don't need to set again>
+
+git config --global user.name "Harshadeep Sonawane"              (Sets your name as the author of every commit)
+git config --global user.email "harshadeepsonawane50@gmail.com"  (Sets your email for commits...Email should match GitHub verified email)
+git config --global --list                                       (To verify your Git configuration)
+
+
+<After creating repository on github ..then in git you have to add github repo url.. Links your local Git repo to a GitHub repo>
+
+git remote add origin https://github.com/Harshadeep0034/git_hub_for_devpos.git
+git remote -v                                                                     (Shows remote URLs linked to your repo)
+git remote set-url origin https://put_generatedt_token_here@file_url
+
+(Updates the remote URL...Replaces old URL with PAT (Personal Access Token) based URL
+
+Used when..1.Password auth is disabled 2.You want non-interactive authentication (CI/CD))
+
+git push origin master
