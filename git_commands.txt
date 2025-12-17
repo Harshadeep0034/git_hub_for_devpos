@@ -53,3 +53,11 @@ git log or git log --oneline
 merge branches : through github pull request branches 
 
 git fetch and git pull diffrence
+
+
+# git hooks - first we have to create pre-hook file which we can create through the vs code and cli vim 
+-- in vs code we can create by adding in .git file (if file is not show in explorer then go to chat setting-search user.exclude in file
+ we have to cancle or delete the file the it will show on explorer) then add pre-commit file in which we can write script
+ 
+ -- in cli command Get-ChildItem -Hidden for hidden folder. where we can see . git and in .git there is hooks folder. in hook folder createdfile 
+ pre-commit.hook throuth vim
