@@ -33,6 +33,8 @@ this is new changes  ...this message is pull from github to loacal and for this 
 
 git pull origin master
 
+# After every change in file in local, we again have to add, commit and push to git hub
+
 # branching stratergies : head means HEAD points to your current position in the repository(latest commit to your repo)
 
 every branch in git is maintain its own copy
