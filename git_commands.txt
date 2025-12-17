@@ -50,4 +50,4 @@ git log or git log --oneline
 
 merge branches : through github pull request branches 
 
-git fetach and git pull diffrence
+git fetch and git pull diffrence
