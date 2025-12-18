@@ -1,5 +1,10 @@
 def my_function():
+    """
+    Returns a fixed integer value.
+    """
     a = 5
     return a
 
-    my_function()
+
+result = my_function()
+print(result)
