@@ -47,6 +47,10 @@ git checkout dev
 # OR
 git switch dev
 
+# git branch delete:
+
+git branch -d <branch_name>
+
 
 git log or git log --oneline
 
